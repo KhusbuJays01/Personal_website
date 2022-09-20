@@ -2,12 +2,14 @@
     margin: 0%;
     padding: 0%;
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 
 body {
     width: 100%;
     height: 100vh;
     position: relative;
+
 }
 
 .topnav {
@@ -112,8 +114,119 @@ body {
     padding-bottom: 5%;
 }
 
-.about {
+/* About Section */
+#about {}
+
+.box {
     height: 100vh;
+    width: 100%;
+    background-color: #2190ac;
+
+}
+
+.title {
+    background-color: #ff0000;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.h1 {
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    color: #ca4040;
+}
+
+.about-img {
+    height: 400px;
+    width: 400px;
+    /* background-color: rgb(158, 21, 151); */
+
+}
+
+.about-img img {
+    margin-top: 20px;
+    border-radius: 20px;
+}
+
+.about-text {
+    height: 300px;
+    width: 500px;
+    background-color: darkgoldenrod;
+    color: #fff;
+
+    /* margin-left: 300px;
+    margin-bottom: 50px; */
+}
+
+.bottom {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+/* About Section End */
+
+/* skill section */
+
+#skill {
+    height: 100vh;
+    width: 100%;
+    background-color: #212aac;
+
+}
+
+.title1 {
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: darkmagenta;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* End section */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+.about {
+    height: 103vh;
     width: 100%;
     background-color: rgb(238, 226, 226);
 
@@ -126,7 +239,7 @@ body {
     align-items: top;
     justify-content: center;
     color: rgb(13, 54, 236);
-    /* background-color: #a12929; */
+    /* background-color: #a12929;
 }
 
 .about p {
@@ -134,9 +247,10 @@ body {
     align-items: top;
     justify-content: center;
     margin-top: -2%;
-    /* background-color: #a12a2a; */
+    background-color: #ff0000;
+  
     color: rgb(0, 0, 0);
-}
+} */
 
 .Services {
     height: 100vh;
@@ -145,13 +259,36 @@ body {
 
 }
 
-.skill {
-    height: 100vh;
+.team {
+    height: 105vh;
     width: 100%;
-    background-color: rgb(233, 222, 222);
+    background-color: rgb(238, 226, 226);
 
 }
 
+.team h1 {
+    height: 10%;
+    width: 100%;
+    display: flex;
+    align-items: top;
+    justify-content: center;
+
+}
+
+.contract {
+    height: 130vh;
+    width: 100%;
+    background-color: rgb(36, 35, 35);
+
+
+}
+
+.project {
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(238, 226, 226);
+
+}
 
 footer {
     /* border: 2px solid black; */
